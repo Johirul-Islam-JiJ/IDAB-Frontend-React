@@ -1,0 +1,31 @@
+*::before{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 70%;
+}
+body{
+    font-size: 1.7rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(109, 55, 55);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background:rgb(8, 141, 112);
+}
+.nav__brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
