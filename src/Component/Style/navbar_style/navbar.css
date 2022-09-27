@@ -4,27 +4,38 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
-  font-size: 62.5%;
+  font-size: 11px;
 }
-body {
+html body {
   font-size: 1.6rem;
 }
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: rgb(204, 204, 204);
-}
-
-.nav {
+html body .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 8vh;
-  background: rgb(0, 33, 65);
+  height: 76px;
+  background: darkgray;
+  padding: 47px;
 }
+html body .nav a {
+  text-decoration: none;
+  color: rgb(255, 248, 248);
+  font-size: 16px;
+  padding: 5px;
+}
+html body .nav ul li {
+  list-style: none;
+}
+html body .nav ul li :hover {
+  color: rgb(83, 102, 121);
+}
+html body .nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 248, 248);
+}
+
 .nav__brand {
   text-transform: uppercase;
 }
@@ -34,10 +45,13 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+  margin-left: 92px;
 }
+
 .nav__toggler {
   display: none;
 }
+
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;
@@ -69,13 +83,14 @@ a {
 }
 
 /* Toggle Icon Animation */
-
 .toggle .line1 {
   transform: rotate(-45deg) translate(-4px, 5px);
 }
+
 .toggle .line2 {
   opacity: 0;
 }
+
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
-}
+}/*# sourceMappingURL=navbar.css.map */
