@@ -1,8 +1,13 @@
 import React from 'react'
+import Banner from '../banner/Banner';
 class home extends React.Component {
     render() {
         return (
-            <h1>Welcome To Home Page!!</h1>
+            <div className="container">
+                
+                <Banner /> 
+    
+            </div>
         );
     }
 }

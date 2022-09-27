@@ -11,7 +11,7 @@ const Footer = () => {
       <a href="#" className='footer_logo'>IDAB</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="#about">About IDAB</a></li>
         <li><a href="#about">Members</a></li>
         <li><a href="#experience">Constitution</a></li>
@@ -30,9 +30,10 @@ const Footer = () => {
       <div className='footer_copyright'>
         <small>&copy;Johirul Islam.All rights reserved</small>
       </div>
+      
 
     </footer>
   )
 }
 
-export default Footer
+export default Footer ;

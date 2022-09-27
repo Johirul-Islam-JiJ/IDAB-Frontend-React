@@ -4,6 +4,7 @@ class contact extends React.Component {
         return (
             <h1>Welcome To Contact Section Page!!</h1>
         );
+        
     }
 }
 export default contact;
