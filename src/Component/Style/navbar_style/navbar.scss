@@ -15,7 +15,7 @@ html {
       align-items: center;
       justify-content: space-around;
       height: 76px;
-      background: darkgray;
+      background: rgb(90, 89, 89);
       padding: 47px;
     
       a {
@@ -29,7 +29,9 @@ html {
         li {
           list-style: none;
           :hover{
-            color:rgb(83, 102, 121);
+            color:rgb(218, 240, 179);
+            font-size: 22px;
+            padding-top: 5px;
           }
           a {
             text-decoration: none;

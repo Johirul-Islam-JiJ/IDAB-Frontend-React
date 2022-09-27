@@ -16,7 +16,7 @@ html body .nav {
   align-items: center;
   justify-content: space-around;
   height: 76px;
-  background: darkgray;
+  background: rgb(90, 89, 89);
   padding: 47px;
 }
 html body .nav a {
@@ -29,7 +29,9 @@ html body .nav ul li {
   list-style: none;
 }
 html body .nav ul li :hover {
-  color: rgb(83, 102, 121);
+  color: rgb(218, 240, 179);
+  font-size: 22px;
+  padding-top: 5px;
 }
 html body .nav ul li a {
   text-decoration: none;
