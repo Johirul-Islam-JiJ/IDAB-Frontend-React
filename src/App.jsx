@@ -8,7 +8,7 @@ import Event from './Component/events/events'
 import Notice from './Component/notice/notice'
 import Publication from './Component/publication/publication'
 import Contact from './Component/contact/contact'
-// import Footer from './Component/footer/footer'
+import Footer from './Component/footer/footer'
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <Notice />
         <Publication />
         <Contact />
-        {/* <Footer/> */}
+        <Footer/>
       
 
     </div>

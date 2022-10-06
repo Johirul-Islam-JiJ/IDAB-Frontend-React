@@ -2,8 +2,14 @@ footer {
   background: rgb(135, 135, 136);
   padding: 3rem 0;
   text-align: center;
-  font-size: 1rem;
+  font-size: 4rem;
   margin-top: 7rem;
+}
+footer .footer_logo {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
 }
 footer a {
   color: rgb(255, 255, 255);
@@ -15,12 +21,6 @@ footer a .permalinks {
   gap: 3rem;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
-}
-footer .footer_logo {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
 }
 footer .footer_socials {
   display: flex;
@@ -43,8 +43,8 @@ footer .footer_socials a :hover {
 }
 footer .footer_copyright {
   margin-bottom: 4rem;
-  color: red;
-  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
 }
 
 /* ========== Media Queries (Medium Devices) =============*/

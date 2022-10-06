@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className='footer_copyright'>
-        <small>IDAB &copy;2022</small>
+        <span class="credit">Created By <a href="https://engrafzalhossen.com/afzal-swe">IDAB</a> | @ 2022 all right reserved.</span>
       </div>
       
 

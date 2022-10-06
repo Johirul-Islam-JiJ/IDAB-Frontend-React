@@ -48,11 +48,11 @@ const Contact = () => {
                         </div>
                     </div>
                     {/* </div> */}
-                    <div class="button">
+                    {/* <div class="button">
                         <center>
                             <span class="credit">Created By <a href="https://engrafzalhossen.com/afzal-swe">IDAB</a> | @ 2022 all right reserved.</span>
                         </center>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>

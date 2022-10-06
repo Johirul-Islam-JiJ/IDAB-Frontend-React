@@ -439,20 +439,4 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px;
   border-radius: 50%;
   margin-right: 10px;
-}
-.contact-area .single-contact h4 {
-  text-transform: uppercase;
-  width: 400px;
-  font-size: 20px;
-  font-weight: 600;
-}
-.contact-area .single-contact h4 span {
-  display: block;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: lowercase;
-  margin-top: 5px;
-}
-.contact-area .single-contact h4 span:last-child {
-  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */

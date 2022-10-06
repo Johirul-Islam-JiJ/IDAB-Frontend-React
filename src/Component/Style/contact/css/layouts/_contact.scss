@@ -75,21 +75,21 @@
       border-radius: 50%;
       margin-right: 10px;
     }
-    h4{
-      text-transform: uppercase;
-      width: 400px;
-      font-size: 20px;
-      font-weight: 600;
-      span{
-        display: block;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: lowercase;
-        margin-top: 5px;
-        &:last-child{
-          margin-bottom: 0;
-        }
-      }
-    }
+    // h4{
+    //   text-transform: uppercase;
+    //   width: 400px;
+    //   font-size: 20px;
+    //   font-weight: 600;
+    //   span{
+    //     display: block;
+    //     font-size: 16px;
+    //     font-weight: 400;
+    //     text-transform: lowercase;
+    //     margin-top: 5px;
+    //     &:last-child{
+    //       margin-bottom: 0;
+    //     }
+    //   }
+    // }
   }
 }

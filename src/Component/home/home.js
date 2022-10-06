@@ -5,7 +5,12 @@ const Home = () => {
     return (
       <div className='home_main'>
         <div className='img_slider'>
-
+            <div className='banner-content'>
+              <div className='banner_text'>
+                <h1>IDAB</h1>
+                <h4>Interior designer’s association Of Bangladesh</h4>
+              </div>
+            </div>
         </div>
         <div className='Header_paragrap'>
             <h2>Interior designer’s association Of Bangladesh</h2>
