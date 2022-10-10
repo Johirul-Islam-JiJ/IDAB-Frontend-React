@@ -1,4 +1,7 @@
 .contact-area{
+    background: rgb(216, 220, 224);
+    padding: 5px;
+    margin-bottom: 5px;
   .section-title{
     h4{
       text-transform: capitalize;
@@ -67,7 +70,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    margin-left: auto;
+    margin-left: 210px;
     i{
       background-color: tomato;
       color: #fff;
@@ -75,21 +78,21 @@
       border-radius: 50%;
       margin-right: 10px;
     }
-    // h4{
-    //   text-transform: uppercase;
-    //   width: 400px;
-    //   font-size: 20px;
-    //   font-weight: 600;
-    //   span{
-    //     display: block;
-    //     font-size: 16px;
-    //     font-weight: 400;
-    //     text-transform: lowercase;
-    //     margin-top: 5px;
-    //     &:last-child{
-    //       margin-bottom: 0;
-    //     }
-    //   }
-    // }
+    h4{
+      text-transform: uppercase;
+      width: 400px;
+      font-size: 20px;
+      font-weight: 600;
+      span{
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: lowercase;
+        margin-top: 5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

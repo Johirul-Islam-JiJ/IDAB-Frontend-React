@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Style/navbar_style/navbar.css";
+import "../bootstrap_4/css/bootstrap-grid.min.css";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -53,6 +54,11 @@ function Navbar() {
         <li className="nav__item">
           <a href="publication/publication.js" className="nav__link">
             Publication
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="publication/publication.js" className="nav__link">
+            Courses
           </a>
         </li>
         <li className="nav__item">

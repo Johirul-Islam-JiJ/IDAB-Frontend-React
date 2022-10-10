@@ -9,6 +9,7 @@ import Notice from './Component/notice/notice'
 import Publication from './Component/publication/publication'
 import Contact from './Component/contact/contact'
 import Footer from './Component/footer/footer'
+import Test from './Component/test_file/test'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Event />
         <Notice />
         <Publication />
+        <Test/>
         <Contact />
         <Footer/>
       

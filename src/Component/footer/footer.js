@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/footer/footer.css"
+import "../bootstrap_4/css/bootstrap-grid.min.css";
 import {FiTwitter} from 'react-icons/fi'
 import {FiInstagram} from 'react-icons/fi'
 import {FiFacebook} from 'react-icons/fi'
@@ -30,7 +31,6 @@ const Footer = () => {
       <div className='footer_copyright'>
         <span class="credit">Created By <a href="https://engrafzalhossen.com/afzal-swe">IDAB</a> | @ 2022 all right reserved.</span>
       </div>
-      
 
     </footer>
   )

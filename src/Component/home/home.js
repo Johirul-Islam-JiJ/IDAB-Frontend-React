@@ -1,11 +1,13 @@
 import React from 'react'
+import "../bootstrap_4/css/bootstrap-grid.min.css"
 import "../Style/home/home.css"
 
 const Home = () => {
     return (
       <div className='home_main'>
-        <div className='img_slider'>
-            <div className='banner-content'>
+        <div className='img_slider col-lg-12'>
+          {/* <img src="../Style/about_idab/idab_profile.jpg"/> */}
+            <div className='banner-content '>
               <div className='banner_text'>
                 <h1>IDAB</h1>
                 <h4>Interior designer’s association Of Bangladesh</h4>

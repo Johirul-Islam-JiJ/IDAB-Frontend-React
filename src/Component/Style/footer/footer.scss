@@ -4,7 +4,7 @@ footer {
     padding: 3rem 0;
     text-align: center;
     font-size: 4rem;
-    margin-top: 7rem;
+    // margin-top: 7rem;
     .footer_logo {
         font-size: 4rem;
         font-weight: 500;
@@ -13,8 +13,10 @@ footer {
     }
     a {
         color: rgb(255, 255, 255);
+        
         .permalinks {
-            display: flex;
+            // display: flex;
+            // float:left;
             flex-wrap: wrap;
             justify-content: center;
             gap: 3rem;

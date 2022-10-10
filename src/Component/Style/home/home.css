@@ -1,5 +1,5 @@
 .home_main .img_slider {
-  height: 90vh;
+  height: 85vh;
   background-image: url(../assets/idab_profile.jpg);
 }
 .home_main .img_slider .banner-content .banner_text h1 {
@@ -8,6 +8,7 @@
   text-transform: capitalize;
   font-weight: 700;
   line-height: 100px;
+  padding-top: 190px;
 }
 .home_main .img_slider .banner-content .banner_text h4 {
   text-transform: capitalize;
