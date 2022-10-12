@@ -26,7 +26,13 @@ const Aobut = () => {
                     BE UNITED, this is the only way to become a pleasant Interior designer.<br/>
 
                     Thank you and best regards. Shafiul Islam Convener Interior Designer’s Association of Bangladesh.
-                </p>
+                    </p>
+                    {/* <a href="#demo" data-toggle="collapse">Learn more...</a>
+                    <div id="demo" className="collapse">
+                        <p>
+                        
+                        </p>
+                    </div> */}
             </div>
     
             <div className='history'>
